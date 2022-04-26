@@ -22,4 +22,7 @@ Project uses:
   - Different platforms prefabs and prefab variations 
   - Unity Audiosource for playing music and sound effects
   - Unity UI system(menu system, score text, number of lives etc.)
+
+
+
   
