@@ -31,4 +31,9 @@ Some gameplay footage:
 Wall explosion when hit by magic spell:
 
 ![Wall explosion](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerWallDestruction.jpg) 
+
+Coin picking:
+
+![Coin picking](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerCoinPicking.jpg)
+
   
