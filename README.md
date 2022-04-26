@@ -11,7 +11,7 @@ Basic ideas are:
 
  - Platforms are spawning using "dummy" moving in front of player. 
  - World is scrolling towards player giving illusion that player is moving.
- - Platforms are spawining from object pool and they are recycled after using.
+ - Platforms are spawning from object pool and they are recycled after using.
 
 Project uses:
  
