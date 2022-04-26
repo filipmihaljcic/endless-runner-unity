@@ -9,7 +9,7 @@ Implementation
 
 Basic ideas are: 
 
- - Tiles are spawning using "dummy" moving in front of player. 
+ - Platforms are spawning using "dummy" moving in front of player. 
  - World is scrolling towards player giving illusion that player is moving.
  - Platforms are spawining from object pool and they are recycled after using.
 
