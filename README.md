@@ -25,9 +25,6 @@ Project uses:
 
 Some gameplay footage:
 
-
-
-
 ![Gameplay](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerGameplay.gif)
 
 
