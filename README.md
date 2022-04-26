@@ -1,4 +1,4 @@
-# Endless runner game 
+# Endless Runner Game 
 
 This project shows endless runner game built on foundation of [Create a 3D Endless Runner from Scratch in Unity](https://www.udemy.com/course/endlessrunner/) Udemy course.
 
