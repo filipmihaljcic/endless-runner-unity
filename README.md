@@ -28,5 +28,7 @@ Some gameplay footage:
 ![Gameplay](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerGameplay.gif)
 
 
+Wall explosion when hit by magic spell:
 
+![Wall explosion](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerWallDestruction.jpg) 
   
