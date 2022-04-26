@@ -5,7 +5,7 @@ This project shows endless runner game built on foundation of [Create a 3D Endle
 I did this course recently. I am still learning about game development and Unity Engine. Lectures were quite good and teacher explained them really well. What I think is not quite good is style of coding that is used. Lots of code is cramed into Start() and Update() methods without refactoring.
 I am also aware that game has some bugs in it and all changes are welcomed. Since I'm still learning Unity at this point I am not aware of Unity-specific best practices, I'm not sure if I'm was doing the right thing here when trying to do it I was just keeping myself on track. 
 
-#Implementation 
+Implementation 
 
 Basic ideas are: 
 
