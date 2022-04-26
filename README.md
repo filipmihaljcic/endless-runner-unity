@@ -24,9 +24,10 @@ Project uses:
   - Unity UI system(menu system, score text, number of lives etc.)
 
 Some gameplay footage:
-![Gameplay]()
+![Gameplay](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerGameplay.gif)
 
 Platform prefab showing trigger for world generation: 
+
 ![Prefab trigger](images/https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerCoinPicking.jpg)
 
 Wall explosion when hit by magic spell:
