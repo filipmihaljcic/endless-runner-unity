@@ -27,6 +27,9 @@ Some gameplay footage:
 
 ![Gameplay](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerGameplay.gif)
 
+Platform prefab showing triggers for world generation: 
+
+![Prefab triggers](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerPlatformsTriggers.jpg)
 
 Wall explosion when hit by magic spell:
 
@@ -36,7 +39,7 @@ Coin picking:
 
 ![Coin picking](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerCoinPicking.jpg)
 
-Main menu of the game
+Main menu of the game:
 
 ![Main menu](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerMenu.jpg)
   
