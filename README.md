@@ -36,4 +36,7 @@ Coin picking:
 
 ![Coin picking](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerCoinPicking.jpg)
 
+Main menu of the game
+
+![Main menu](https://github.com/filipmihaljcic/endless-runner-unity/blob/main/images/AstroRunnerMenu.jpg)
   
