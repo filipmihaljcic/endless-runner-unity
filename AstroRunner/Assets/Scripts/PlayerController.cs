@@ -11,20 +11,6 @@ namespace Project.Scripts
 
         [Tooltip("Strafe speed of our player.")] public float strafeSpeed = 0.25f;
 
-        private Animator _anim;
-   
-        private Vector3 _startPosition; // starting position of our player(this refers only to x and z axis)
-
-        private Vector3 _horizontalMovement;
-
-        private Rigidbody _rb, _magicRigidBody;
-
-        public static GameObject _player; // reference for our PlayerController script
-
-        public static GameObject _currentPlatform;
-
-        public static AudioSource [] _sfx; // array of sound effects 
-
         [Tooltip("Spell object itself.")] public GameObject _magic;
 
         [Tooltip("Starting position of our magic spell.")] public Transform _magicStartPosition;
@@ -38,6 +24,20 @@ namespace Project.Scripts
         [Tooltip("Panel that shows game over message.")] public GameObject _gameOverPanel;
         
         [Tooltip("Joystick UI placeholder.")] public Joystick joystick;
+	
+	private Animator _anim;
+   
+        private Vector3 _startPosition; // starting position of our player(this refers only to x and z axis)
+
+        private Vector3 _horizontalMovement;
+
+        private Rigidbody _rb, _magicRigidBody;
+
+        public static GameObject _player; // reference for our PlayerController script
+
+        public static GameObject _currentPlatform;
+	
+	public static AudioSource [] _sfx; // array of sound effects 
 
         private bool _turnLeft, _turnRight, _canJump, _isFalling, _canTurn;
 	
