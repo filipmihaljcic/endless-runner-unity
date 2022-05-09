@@ -3,16 +3,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
 namespace Project.Scripts
 {
-
     public class PlayerController : MonoBehaviour
     {
         [Header("Player Settings")]
 
-        [Tooltip("Strafe speed of our player.")]
-        public float strafeSpeed = 0.25f;
+        [Tooltip("Strafe speed of our player.")] public float strafeSpeed = 0.25f;
 
         private Animator _anim;
    
@@ -28,29 +25,23 @@ namespace Project.Scripts
 
         public static AudioSource [] _sfx; // array of sound effects 
 
-        [Tooltip("Spell object itself.")]
-        public GameObject _magic;
+        [Tooltip("Spell object itself.")] public GameObject _magic;
 
-        [Tooltip("Starting position of our magic spell.")]
-        public Transform _magicStartPosition;
+        [Tooltip("Starting position of our magic spell.")] public Transform _magicStartPosition;
 
         public static bool _isDead = false;
+	
         private int _livesLeft;
 
-        [Tooltip("Icons that indicate that our player hasn't lost a life.")]
-        public Texture _aliveIcon;
+        [Tooltip("Icons that indicate that our player hasn't lost a life.")] public Texture _aliveIcon;
 
-        [Tooltip("Icons that indicate that our player has lost a life.")]
-        public Texture _deadIcon;
+        [Tooltip("Icons that indicate that our player has lost a life.")] public Texture _deadIcon;
 
-        [Tooltip("Array of alive and dead icons.")]
-        public RawImage[] _icons;
+        [Tooltip("Array of alive and dead icons.")] public RawImage[] _icons;
 
-        [Tooltip("Panel that shows game over message.")]
-        public GameObject _gameOverPanel;
+        [Tooltip("Panel that shows game over message.")] public GameObject _gameOverPanel;
         
-        [Tooltip("Joystick UI placeholder.")]
-        public Joystick joystick;
+        [Tooltip("Joystick UI placeholder.")] public Joystick joystick;
 
         private bool _turnLeft, _turnRight, _canJump, _isFalling, _canTurn;
 
