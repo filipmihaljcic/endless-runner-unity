@@ -29,10 +29,6 @@ namespace Project.Scripts
 
         [Tooltip("Starting position of our magic spell.")] public Transform _magicStartPosition;
 
-        public static bool _isDead = false;
-	
-        private int _livesLeft;
-
         [Tooltip("Icons that indicate that our player hasn't lost a life.")] public Texture _aliveIcon;
 
         [Tooltip("Icons that indicate that our player has lost a life.")] public Texture _deadIcon;
@@ -44,9 +40,15 @@ namespace Project.Scripts
         [Tooltip("Joystick UI placeholder.")] public Joystick joystick;
 
         private bool _turnLeft, _turnRight, _canJump, _isFalling, _canTurn;
+	
+	public static bool _isDead = false;
+	
+        private int _livesLeft;
 
         private Vector2 _touchStart = Vector2.zero; 
+	
         private Vector2 _touchEnd = Vector2.zero;
+	
         private Vector2 _touchDelta = Vector2.zero;
 
         private void OnCollisionEnter([NotNull]Collision _other) 
