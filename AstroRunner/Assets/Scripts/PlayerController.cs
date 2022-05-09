@@ -174,24 +174,24 @@ namespace Project.Scripts
 	                _touchDelta = _touchStart - _touchEnd;
 
                     // swipe left
-	                if (_touchDelta.x > -50 && _canTurn)
+	            if (_touchDelta.x > -50 && _canTurn)
                     {
                         _turnLeft = true;
                         TurnLeft();
                     }
                     // swipe right
-	                else if(_touchDelta.x < 50 && _canTurn)
+	            else if(_touchDelta.x < 50 && _canTurn)
                     {
                         _turnRight = true;
                         TurnRight();
                     }
                     // swipe up
-	                else if(_touchDelta.y < -50)	
+	            else if(_touchDelta.y < -50)	
                     {
                         _canJump = true;
                         StartJumping();
                     }
-	            }
+	        }
             }
         }
 
@@ -214,7 +214,6 @@ namespace Project.Scripts
             }
         }
             
-    
         private void StopJumping()
         {
             _anim.SetBool("isJumping", false);
